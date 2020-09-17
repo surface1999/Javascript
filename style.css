@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(17, 12, 39);
+    color: #ffffff;
+    height: auto;
+    min-height: 100vh;
+}
+
+.search{
+    margin-top: 5rem;
+    height: auto;
+    width: 60%;
+    padding: 3rem 2rem;
+    background-color: rgb(90, 109, 119);
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 50%;
+    height: 3rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper input{
+    border: none;
+    height: 100%;
+    flex-grow: 7;
+    outline: none;
+    border-radius:  5px 0 0 5px;
+    background-color: rgb(73, 71, 71);
+    box-sizing: border-box;
+    padding: 1rem;
+}
+#searchButton{
+    border: none;
+    height: 100%;
+    padding: .5rem;
+    flex-grow: 3;
+    border-radius: 0 5px 5px 0;
+    background-color: rgb(44, 42, 42);
+    color: rgb(218, 211, 211);
+    cursor: pointer;
+}
+
+#searchButton:hover{
+    background-color: rgb(24, 22, 22);
+}
+
+#filter{
+    padding: 1.5rem 0;
+    width: 11rem;
+    position: relative;
+}
+#filter-btn{
+    position: absolute;
+    right: 0;
+}
+#sort{
+    padding: 1.5rem 0;
+    width: 11rem;
+    position: relative;
+}
+#sort-btn{
+    position: absolute;
+    right: 0;
+}
+#content{
+    height: 100%;
+    width: 60%;
+    list-style: none;
+    padding: 3rem 2rem;
+    background-color: #504a55;
+    box-sizing: border-box;
+}
+#content li{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-width: 1px 0;
+    border-color: rgb(49, 3, 49);
+    border-style: solid;
+    align-items: center;
+}
+.price{
+    padding: 1rem;
+    font-weight: 600;
+    margin-right: 1rem;
+}
+.delete{
+    background-color: rgb(71, 40, 71);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: .5rem;
+    cursor: pointer;
+}
+.delete:hover{
+    background-color: rgb(71, 57, 71);  
+}
