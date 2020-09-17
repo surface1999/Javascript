@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+}
+.header, footer{
+    grid-column: 1/3;
+}
